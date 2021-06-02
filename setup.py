@@ -140,7 +140,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='pygedm',
+    name='pygedm1',
     version=__version__,
     author='D. C. Price',
     author_email='dancpr@berkeley.edu',
