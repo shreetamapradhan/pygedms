@@ -140,7 +140,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='pygedm1',
+    name='pygedms',
     version=__version__,
     author='D. C. Price',
     author_email='dancpr@berkeley.edu',
@@ -154,8 +154,8 @@ setup(
     tests_require= ['pytest', 'astropy', 'numpy', 'healpy'],
     setup_requires= ['pytest-runner', 'pytest-cov', 'pybind11>=2.2'],
     ext_modules=ext_modules,
-    packages=['pygedm'],
-    package_data={'pygedm': data_files},
+    packages=['pygedms'],
+    package_data={'pygedms': data_files},
     include_package_data=True,
     zip_safe=False,
     cmdclass={'build_ext': BuildExt},
